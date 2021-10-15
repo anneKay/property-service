@@ -3,15 +3,15 @@
 This service returns a list of properties within a `5 kilometer` radius of a given cordinates along with their addresses and price.
 
 * Ruby version
->- 2.7.2
+- 2.7.2
 
 * Database creation
 
->- Run rails db:create db:migrate
->- Run bundle exec rails db < <path/to/properties.sql>
+- Run rails db:create db:migrate
+- Run bundle exec rails db < <path/to/properties.sql>
 
 * How to run the app
->- Run rails s
+- Run rails s
 
 call `/properties/near` endpoint with the following params;
 params:
@@ -60,7 +60,7 @@ you should get a sample response as follows;
 ]
 
 * How to run the test suite
->- Run rspec spec
+- Run rspec spec
 
 
 * Decisions
